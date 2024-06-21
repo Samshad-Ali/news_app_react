@@ -19,7 +19,7 @@ const Newscard = ({ data }) => {
         <a
           className="bg-orange-700 text-white px-4 p-2 font-semibold w-fit self-center rounded-sm hover:scale-105 transition-all"
           href={url}
-          target="_blank"
+        
         >
           Summary
         </a>
