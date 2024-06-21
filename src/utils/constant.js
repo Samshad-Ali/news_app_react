@@ -1,0 +1,1 @@
+export const hotTopics = ["Cricket","Bollywood","New","Football","Politics"];
