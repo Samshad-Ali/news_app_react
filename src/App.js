@@ -8,7 +8,7 @@ import Hottopic from "./components/Hottopic";
 import Pagination from "./components/Pagination";
 function App() {
   const {query,newsData,setNewsData,setLoading,loading,pagination} = useContext(newsContext);
-  const url = `https://newsapi.org/v2/everything?q=${query}&apiKey=${process.env.REACT_APP_URL}&pageSize=10&page=${pagination}`;
+  const url = `https://newsapi.org/v2/everything?q=${query}&apiKey=92e06427cc1d4178a01646d7e70bbfd0&pageSize=10&page=${pagination}`;
   const fetchingData=async()=>{
     try {    
       setLoading(true)
